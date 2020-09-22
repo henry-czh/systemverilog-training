@@ -1,0 +1,8 @@
+/home/czh/systemverilog/sv_example/dut.v
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/event/driver.sv
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/event/environment.sv
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/event/generator.sv
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/event/test.sv
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/event/top_tb.sv
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/event/transaction.sv
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/event/vif.sv

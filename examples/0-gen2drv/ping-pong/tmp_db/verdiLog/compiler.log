@@ -1,0 +1,397 @@
+*design* DebussyLib (btIdent Verdi3_K-2015.09)
+Command arguments:
+    +define+verilog
+    -f ../test.f
+        +incdir+/home/czh/sv
+        +incdir+/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong
+        /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv
+        /home/czh/systemverilog/sv_example/dut.v
+        /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/transaction.sv
+        /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv
+        /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv
+        /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv
+        /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv
+        /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/top_tb.sv
+
+
+*Error* Syntax error at interface
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 1: 
+
+*Error* Syntax error at logic
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 3: 
+
+*Error* Syntax error at logic
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 4: 
+
+*Error* Syntax error at logic
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 5: 
+
+*Error* Syntax error at logic
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 6: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 7: 
+
+*Error* Syntax error at logic
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 8: 
+
+*Error* Syntax error at modport
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 10: 
+
+*Error* Syntax error at input
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 11: 
+
+*Error* Syntax error at input
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 12: 
+
+*Error* Syntax error at output
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 13: 
+
+*Error* Syntax error at output
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 14: 
+
+*Error* Syntax error at output
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 15: 
+
+*Error* Syntax error at output
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 16: 
+
+*Error* Syntax error at input
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 17: 
+
+*Error* Syntax error at )
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 18: 
+
+*Error* Syntax error at modport
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 20: 
+
+*Error* Syntax error at input
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 21: 
+
+*Error* Syntax error at input
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 22: 
+
+*Error* Syntax error at input
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 23: 
+
+*Error* Syntax error at input
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 24: 
+
+*Error* Syntax error at input
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 25: 
+
+*Error* Syntax error at input
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 26: 
+
+*Error* Syntax error at output
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 27: 
+
+*Error* Syntax error at )
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 28: 
+
+*Error* Syntax error at assign
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 30: 
+
+*Error* Syntax error at endinterface
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv", 32: 
+
+*Error* illegal LHS in continuous assignment
+"/home/czh/systemverilog/sv_example/dut.v", 42: 
+
+*Error* Syntax error at class
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/transaction.sv", 1: 
+
+*Error* Syntax error at rand
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/transaction.sv", 3: 
+
+*Error* Syntax error at rand
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/transaction.sv", 4: 
+
+*Error* Syntax error at rand
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/transaction.sv", 5: 
+
+*Error* Syntax error at constraint
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/transaction.sv", 7: 
+
+*Error* Syntax error at addr
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/transaction.sv", 7: 
+
+*Error* Syntax error at }
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/transaction.sv", 7: 
+
+*Error* Syntax error at endclass
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/transaction.sv", 9: 
+
+*Error* Syntax error at class
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 1: 
+
+*Error* Syntax error at virtual
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 3: 
+
+*Error* Syntax error at mailbox
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 5: 
+
+*Error* Syntax error at transaction
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 7: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 9: 
+
+*Error* Syntax error at gen2drv
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 9: 
+
+*Error* Syntax error at virtual
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 13: 
+
+*Error* Syntax error at reset_task
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 14: 
+
+*Error* Syntax error at while
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 15: 
+
+*Error* Syntax error at @
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 16: 
+
+*Error* Syntax error at @
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 18: 
+
+*Error* Syntax error at while
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 19: 
+
+*Error* Syntax error at gen2drv
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 20: 
+
+*Error* Syntax error at $display
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 21: 
+
+*Error* Syntax error at drive_pkt
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 22: 
+
+*Error* Syntax error at end
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 23: 
+
+*Error* Syntax error at endtask
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 24: 
+
+*Error* Syntax error at extern
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 26: 
+
+*Error* Syntax error at extern
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 27: 
+
+*Error* Syntax error at endclass
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 29: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 31: 
+
+*Error* failed to find symbol 'driver'
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 31: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 38: 
+
+*Error* failed to find symbol 'driver'
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv", 38: 
+
+*Error* Syntax error at class
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 1: 
+
+*Error* Syntax error at mailbox
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 3: 
+
+*Error* Syntax error at int
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 4: 
+
+*Error* Syntax error at transaction
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 6: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 8: 
+
+*Error* task or function (new) duplicated
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 8: 
+
+*Error* Syntax error at virtual
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 13: 
+
+*Error* Syntax error at repeat
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 14: 
+
+*Error* Syntax error at trans
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 15: 
+
+*Error* Syntax error at assert
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 16: 
+
+*Error* Syntax error at gen2drv
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 17: 
+
+*Error* Syntax error at $display
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 18: 
+
+*Error* Syntax error at end
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 19: 
+
+*Error* Syntax error at endtask
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 20: 
+
+*Error* Syntax error at endclass
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv", 22: 
+
+*Error* Syntax error at class
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 1: 
+
+*Error* Syntax error at generator
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 3: 
+
+*Error* Syntax error at driver
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 4: 
+
+*Error* Syntax error at mailbox
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 6: 
+
+*Error* Syntax error at virtual
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 8: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 10: 
+
+*Error* task or function (new) duplicated
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 10: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 15: 
+
+*Warning* Task/Function Null portlist using parentheses.
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 15: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 21: 
+
+*Error* Function connect has no argument.
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 21: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 26: 
+
+*Error* Syntax error at gen
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 31: 
+
+*Error* Syntax error at endtask
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 32: 
+
+*Error* Syntax error at task
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 34: 
+
+*Error* Syntax error at endclass
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 39: 
+
+*Error* Syntax error at program
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv", 1: 
+
+*Error* Syntax error at class
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 1: 
+
+*Error* Syntax error at generator
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 3: 
+
+*Error* Syntax error at driver
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 4: 
+
+*Error* Syntax error at mailbox
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 6: 
+
+*Error* Syntax error at virtual
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 8: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 10: 
+
+*Error* task or function (new) duplicated
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 10: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 15: 
+
+*Error* task or function (build) duplicated
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 15: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 21: 
+
+*Error* task or function (connect) duplicated
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 21: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 26: 
+
+*Error* task or function (run) duplicated
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 26: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 34: 
+
+*Error* Syntax error at delay_time
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 34: 
+
+*Error* Syntax error at endclass
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv", 39: 
+
+*Error* Syntax error at environment
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv", 4: 
+
+*Error* Syntax error at initial
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv", 6: 
+
+*Error* Syntax error at env
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv", 7: 
+
+*Error* Syntax error at env
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv", 8: 
+
+*Error* Syntax error at env
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv", 9: 
+
+*Error* Syntax error at env
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv", 10: 
+
+*Error* Syntax error at env
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv", 11: 
+
+*Error* Syntax error at env
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv", 12: 
+
+*Error* Syntax error at end
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv", 13: 
+
+*Error* Syntax error at endprogram
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv", 14: 
+Highest level modules:
+top_tb
+
+
+*Error* failed to find identifier vif.clk
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/top_tb.sv", 9: 
+
+*Error* failed to find identifier vif.rst_n
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/top_tb.sv", 10: 
+
+*Error* failed to find identifier vif.valid
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/top_tb.sv", 11: 
+
+*Error* failed to find identifier vif.rw
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/top_tb.sv", 12: 
+
+*Error* failed to find identifier vif.addr
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/top_tb.sv", 13: 
+
+*Error* failed to find identifier vif.ready
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/top_tb.sv", 14: 
+
+*Error* view dut_if is not defined for instance vif
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/top_tb.sv", 6: 
+
+*Error* view test is not defined for instance test
+"/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/top_tb.sv", 18: 
+Total	125 error(s),   1 warning(s)

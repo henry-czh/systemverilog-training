@@ -1,0 +1,143 @@
+3        
+0 environment.sv
+0 /EDA/vcs201606/etc/systemverilog/environment.sv
+0 /home/czh/sv/environment.sv
+33
++itf+/EDA/vcs201606/linux64/lib/vcsdp_lite.tab
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/EDA/vcs201606/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags=-L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic
+-Mobjects= /EDA/vcs201606/linux64/lib/libvirsim.so /EDA/vcs201606/linux64/lib/liberrorinf.so /EDA/vcs201606/linux64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/EDA/vcs201606/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/EDA/verdi201509/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/EDA/vcs201606/include
+-P
+-Xufe=2steps
+-debug_access+all
+-f ../test.f
+-fsdb
+-full64
+-gen_obj
+-kdb
+-lca
+-picarchive
+-sverilog
+-timescale=1ns/1ns
+/EDA/vcs201606/linux64/bin/vcs1
+/EDA/verdi201509/share/PLI/VCS/LINUX64/verdi.tab
+85
+sysc_uni_pwd=/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/tmp_db
+XMODIFIERS=@im=fcitx
+XDG_VTNR=7
+XDG_SESSION_TYPE=x11
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SESSION_ID=c2
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/czh
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop
+XDG_CURRENT_DESKTOP=Unity
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg
+XAUTHORITY=/home/czh/.Xauthority
+VTE_VERSION=4205
+VMR_MODE_FLAG=64
+VLOG_LIBRARY_PATH=/home/czh/vim_czh/vlog_aide/lib
+VLOG_AIDE_HOME=/home/czh/vim_czh/vlog_aide
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LCAMSG_PRINT_OFF=1
+VCS_HOME=/EDA/vcs201606
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1499
+UNAME=/bin/uname
+TURBO_LOG_DIR=/tmp/vcs_20180906031211_11278
+TOOL_HOME=/EDA/vcs201606/linux64
+TB=/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SNPS_VCS_INTERNAL_LINKER_NEEDS_NO_AS_NEEDED=1
+SESSION_MANAGER=local/czh-K43SV:@/tmp/.ICE-unix/1831,unix/czh-K43SV:/tmp/.ICE-unix/1831
+SESSIONTYPE=gnome-session
+SESSION=ubuntu
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_QPA_PLATFORMTHEME=appmenu-qt5
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+QT_IM_MODULE=fcitx
+QT_ACCESSIBILITY=1
+QT4_IM_MODULE=fcitx
+PAPERSIZE=a4
+OVA_UUM=0
+NOVAS_HOME=/EDA/verdi201509
+MFLAGS=
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+MAKE_TERMOUT=/dev/pts/3
+MAKE_TERMERR=/dev/pts/3
+MAKELEVEL=1
+MAKEFLAGS=
+LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME=zh_CN.UTF-8
+LC_TELEPHONE=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_IDENTIFICATION=zh_CN.UTF-8
+LC_ALL=C
+LC_ADDRESS=zh_CN.UTF-8
+JOB=dbus
+INSTANCE=
+IM_CONFIG_PHASE=1
+IES_HOME=/EDA/INCISIV131S013
+GTK_MODULES=gail:atk-bridge:unity-gtk-module
+GTK_IM_MODULE=fcitx
+GTK2_MODULES=overlay-scrollbar
+GPG_AGENT_INFO=/home/czh/.gnupg/S.gpg-agent:0:1
+GNOME_KEYRING_PID=
+GNOME_KEYRING_CONTROL=
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US
+GDMSESSION=ubuntu
+DESKTOP_SESSION=ubuntu
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-30K4ZsVNHa
+CPATH=/usr/include/x86_64-linux-gnu
+COMPIZ_CONFIG_PROFILE=ubuntu
+CLUTTER_IM_MODULE=xim
+0
+11
+1536202566 /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/top_tb.sv
+1534840249 /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv
+1534840249 /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv
+1534840249 /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv
+1534840249 /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv
+1534840249 /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/transaction.sv
+1536200094 /home/czh/systemverilog/sv_example/dut.v
+1534840249 /home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv
+1536200078 ../test.f
+1440664009 /EDA/verdi201509/share/PLI/VCS/LINUX64/verdi.tab
+1464145466 /EDA/vcs201606/linux64/lib/vcsdp_lite.tab
+4
+0 
+1464147802 /EDA/vcs201606/linux64/lib/libvirsim.so
+1464147272 /EDA/vcs201606/linux64/lib/liberrorinf.so
+1464147248 /EDA/vcs201606/linux64/lib/libsnpsmalloc.so
+1536203533 simv.daidir

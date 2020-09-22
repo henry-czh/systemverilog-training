@@ -1,0 +1,3 @@
+Command Line: /EDA/verdi201509/platform/LINUXAMD64/bin/Novas -ssf novas.fsdb -f ../test.f
+uname(Linux czh-K43SV 4.4.0-134-generic #160-Ubuntu SMP Wed Aug 15 14:58:00 UTC 2018 x86_64)
+au time 1703.968628 71.764000 102.712000 delta 197148672 197148672 total 575143936 575143936

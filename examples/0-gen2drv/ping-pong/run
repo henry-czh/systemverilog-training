@@ -1,0 +1,12 @@
+#!/bin/bash
+export TB=`pwd`
+
+#if [ ! -d tmp_db ]; then
+#	mkdir tmp_db
+#fi
+#
+#cd tmp_db
+
+#vcs -full64 -kdb -lca -sverilog -debug_access+all -timescale=1ns/1ns -f ../test.f
+#irun -clean -sv +access+rwc -timescale 1ns/1ns -f ../test.f
+make $1

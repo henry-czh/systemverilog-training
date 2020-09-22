@@ -1,0 +1,123 @@
+verdiWindowResize -win $_Verdi_1 "65" "24" "1301" "744"
+debImport "-dbdir" "./simv.daidir"
+wvCreateWindow
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvOpenFile -win $_nWave2 \
+           {/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/tmp_db/novas.fsdb}
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiWindowWorkMode -win $_Verdi_1 -hardwareDebug
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/top_tb"
+wvGetSignalSetScope -win $_nWave2 "/top_tb/test"
+wvGetSignalSetScope -win $_nWave2 "/top_tb/dut"
+wvSetPosition -win $_nWave2 {("G1" 3)}
+wvSetPosition -win $_nWave2 {("G1" 3)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/top_tb/dut/ready} \
+{/top_tb/dut/rst_n} \
+{/top_tb/dut/valid} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 1 2 3 )} 
+wvSetPosition -win $_nWave2 {("G1" 3)}
+wvSelectGroup -win $_nWave2 {G2}
+wvGetSignalClose -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 2 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 2 3 )} 
+wvSetCursor -win $_nWave2 74.112162 -snap {("G1" 2)}
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 2 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSetCursor -win $_nWave2 95.813514 -snap {("G1" 0)}
+wvSelectGroup -win $_nWave2 {G2}
+wvSelectSignal -win $_nWave2 {( "G1" 2 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 2 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 2 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 2 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+verdiDockWidgetMaximize -dock windowDock_nWave_2
+wvSetDisplayAttr "Waveform Pane Background" -color ID_BLUE5
+wvSetDisplayAttr "Waveform Pane Background" -color ID_BLACK
+wvSetDisplayAttr "Verilog Signal" -color ID_GREEN5
+wvSetDisplayAttr "Verilog Signal" -color ID_GREEN5
+wvSetDisplayAttr "Verilog Signal" -color ID_GREEN4
+wvSetDisplayAttr "Verilog Signal" -color ID_CYAN6
+wvSetDisplayAttr "Verilog Signal" -color ID_CYAN5
+wvSetDisplayAttr "Verilog Signal" -color ID_CYAN6
+wvSetDisplayAttr "Verilog Signal" -color ID_CYAN5
+wvSetDisplayAttr "Output Signal" -color ID_GREEN5
+wvSetDisplayAttr "Output Signal" -color ID_GREEN4
+wvSetDisplayAttr "Output Signal" -color ID_CYAN4
+wvSetDisplayAttr "Output Signal" -color ID_PURPLE4
+wvSetDisplayAttr "Output Signal" -color ID_PURPLE3
+wvSetDisplayAttr "Output Signal" -color ID_PURPLE6
+wvSetDisplayAttr "Output Signal" -color ID_PURPLE5
+wvSetDisplayAttr "Output Signal" -color ID_RED5
+wvSetDisplayAttr "Output Signal" -color ID_GREEN5
+wvSelectGroup -win $_nWave2 {G2}
+wvSetDisplayAttr "Net Signal" -color ID_YELLOW4
+wvSetDisplayAttr "Net Signal" -color ID_GREEN3
+wvSetDisplayAttr "Net Signal" -color ID_CYAN3
+wvSetDisplayAttr "Net Signal" -color ID_YELLOW5
+wvSetDisplayAttr "Net Signal" -color ID_YELLOW5
+wvSetDisplayAttr "InOut Signal" -color ID_GREEN5
+wvSetDisplayAttr "InOut Signal" -color ID_BLUE5
+wvSetCursor -win $_nWave2 100.931757 -snap {("G2" 0)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+debExit
