@@ -1,0 +1,3 @@
+Command Line: /EDA/vcs201606/linux64/bin/elabcom -logdir simv.daidir/elabcomLog -simvdaidir simv.daidir -lib simv.daidir/work -elab simv.daidir/kdb -simflow -top top_tb  -Lf work
+uname(Linux czh-K43SV 4.4.0-134-generic #160-Ubuntu SMP Wed Aug 15 14:58:00 UTC 2018 x86_64)
+au time 0.043062 0.020000 0.024000 delta 229806080 229806080 total 343482368 343482368

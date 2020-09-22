@@ -1,0 +1,73 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_K-2015.09
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+[Verdi_1]
+workMode = hardwareDebug
+[hb]
+postSimFile = /home/czh/systemverilog/sv_example/examples/0-gen2drv/event/tmp_db/novas.fsdb
+syncTime = 0
+viewport = 65 24 1301 744 428 142 192 1299
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 0
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+sdfCheckUndef = FALSE
+[nMemoryManager]
+FsdbFile = /home/czh/systemverilog/sv_example/examples/0-gen2drv/event/tmp_db/novas.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 28 1301 219 100 65
+SessionFile = /home/czh/systemverilog/sv_example/examples/0-gen2drv/event/tmp_db/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSync = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE
+[wave.1]
+viewPort = 0 28 1301 641 135 81
+SessionFile = /home/czh/systemverilog/sv_example/examples/0-gen2drv/event/tmp_db/verdiLog/novas_autosave.ses.wave.1
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSync = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

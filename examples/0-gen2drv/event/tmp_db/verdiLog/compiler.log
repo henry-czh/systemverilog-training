@@ -1,0 +1,14 @@
+*design* DebussyLib (btIdent Verdi3_K-2015.09)
+Command arguments:
+    +define+verilog
+    -dbdir
+*Warning* Unknown argument -dbdir
+
+    simv.daidir
+
+
+*Error* source file 'simv.daidir' is a directory
+
+Highest level modules:
+
+Total	1 error(s),   1 warning(s)

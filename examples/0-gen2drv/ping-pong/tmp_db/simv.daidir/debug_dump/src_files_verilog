@@ -1,0 +1,8 @@
+/home/czh/systemverilog/sv_example/dut.v
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/driver.sv
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/environment.sv
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/generator.sv
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/test.sv
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/top_tb.sv
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/transaction.sv
+/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/vif.sv

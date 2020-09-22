@@ -1,0 +1,13 @@
++incdir+/home/czh/sv
++incdir+$TB
+$TB/vif.sv
+/home/czh/sv/dut.v
+$TB/transaction.sv
+$TB/driver.sv
+$TB/generator.sv
+$TB/default_gen_cbs.sv
+//$TB/environment.sv
+//$TB/base_test.sv
+//$TB/testcase0.sv
+$TB/test.sv
+$TB/top_tb.sv

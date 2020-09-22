@@ -1,0 +1,5 @@
+@elabcom rc file Version 1.0
+[oh]
+invokeDir = /home/czh/systemverilog/sv_example/examples/0-gen2drv/event/tmp_db
+hostCommand = -lib simv.daidir/work -elab simv.daidir/kdb -simflow -top "top_tb " -Lf work -SNPS_ELABCOM -saveElab
+simType = VCS

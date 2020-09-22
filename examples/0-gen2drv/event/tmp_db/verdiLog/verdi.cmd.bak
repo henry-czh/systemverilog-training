@@ -1,0 +1,11 @@
+debImport "-dbdir" "simv.daidir"
+wvCreateWindow
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvOpenFile -win $_nWave2 \
+           {/home/czh/systemverilog/sv_example/examples/0-gen2drv/event/tmp_db/novas.fsdb}
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiWindowWorkMode -win $_Verdi_1 -hardwareDebug
+verdiWindowResize -win $_Verdi_1 "223" -14 "900" "744"
+verdiWindowResize -win $_Verdi_1 "55" -14 "1301" "744"
+verdiDockWidgetSetCurTab -dock widgetDock_<Message>
+debExit

@@ -1,0 +1,10 @@
+#!/bin/bash
+export TB=`pwd`
+
+if [ ! -d tmp_db ]; then
+	mkdir tmp_db
+fi
+
+cd tmp_db
+
+irun -clean -sv +access+rwc -timescale 1ns/1ps -f ../test.f

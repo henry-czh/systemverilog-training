@@ -1,0 +1,127 @@
+{
+    "MlibObjs": {},
+    "PrevCompiledModules": {},
+    "NameTable": {
+        "_vcs_unit__1133725192": [
+            "_vcs_unit__1133725192",
+            "nZUk0",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "dut_if": [
+            "dut_if",
+            "e7EBi",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ],
+        "dut": [
+            "dut",
+            "qKwL8",
+            "module"
+        ],
+        "top_tb": [
+            "top_tb",
+            "W0eJz",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "nMops": 4157,
+        "ru_self_cgstart": {
+            "ru_nvcsw": 64,
+            "ru_utime_sec": 0.12,
+            "ru_stime_sec": 0.043999999999999997,
+            "ru_maxrss_kb": 104088,
+            "ru_minflt": 10648,
+            "ru_majflt": 0,
+            "ru_nivcsw": 28
+        },
+        "ru_childs_cgstart": {
+            "ru_nvcsw": 15,
+            "ru_utime_sec": 0.028000000000000001,
+            "ru_stime_sec": 0.028000000000000001,
+            "ru_maxrss_kb": 55916,
+            "ru_minflt": 13646,
+            "ru_majflt": 0,
+            "ru_nivcsw": 15
+        },
+        "nQuads": 1356,
+        "totalObjSize": 310064,
+        "mopSpeed": 49488.095238095244,
+        "outputSizePerQuad": 228.0,
+        "ru_self_end": {
+            "ru_nvcsw": 64,
+            "ru_utime_sec": 0.20399999999999999,
+            "ru_stime_sec": 0.051999999999999998,
+            "ru_maxrss_kb": 114256,
+            "ru_minflt": 12716,
+            "ru_majflt": 0,
+            "ru_nivcsw": 28
+        },
+        "ru_childs_end": {
+            "ru_nvcsw": 15,
+            "ru_utime_sec": 0.028000000000000001,
+            "ru_stime_sec": 0.028000000000000001,
+            "ru_maxrss_kb": 55916,
+            "ru_minflt": 13646,
+            "ru_majflt": 0,
+            "ru_nivcsw": 15
+        },
+        "quadSpeed": 16142.857142857145,
+        "mop/quad": 3.0656342182890857,
+        "Frontend(%)": 58.82352941176471,
+        "CodeGen(%)": 41.17647058823529
+    },
+    "CurCompileUdps": {},
+    "CompileStatus": "Successful",
+    "LVLData": [
+        "SIM"
+    ],
+    "SIMBData": {
+        "bytes": 108889,
+        "out": "amcQwB.o"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "_vcs_unit__1133725192",
+        "_vcs_unit__1133725192",
+        "std",
+        "std",
+        "dut_if",
+        "dut_if",
+        "dut",
+        "dut",
+        "test",
+        "test",
+        "top_tb",
+        "top_tb"
+    ],
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.11538.json"
+    ],
+    "Misc": {
+        "cwd": "/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/tmp_db",
+        "daidir": "simv.daidir",
+        "csrc": "csrc",
+        "daidir_abs": "/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/tmp_db/simv.daidir",
+        "csrc_abs": "/home/czh/systemverilog/sv_example/examples/0-gen2drv/ping-pong/tmp_db/csrc",
+        "default_output_dir": "csrc",
+        "archive_dir": "archive.0"
+    }
+}

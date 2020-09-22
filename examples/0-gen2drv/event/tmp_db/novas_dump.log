@@ -1,0 +1,177 @@
+ANF: scsd_xprop_is_enabled(dlerror='./simv: undefined symbol: scsd_xprop_is_enabled')
+ANF: scsd_xprop_sig_is_promoted(dlerror='./simv: undefined symbol: scsd_xprop_sig_is_promoted')
+ANF: scsd_xprop_int_xvalue(dlerror='./simv: undefined symbol: scsd_xprop_int_xvalue')
+ANF: scsd_xprop_bool_xvalue(dlerror='./simv: undefined symbol: scsd_xprop_bool_xvalue')
+ANF: scsd_xprop_enum_xvalue(dlerror='./simv: undefined symbol: scsd_xprop_enum_xvalue')
+ANF: msvEnableDumpingMode(dlerror='./simv: undefined symbol: msvEnableDumpingMode')
+ANF: msvIsSpiceEngineReady(dlerror='./simv: undefined symbol: msvIsSpiceEngineReady')
+ANF: msvSetAddProbeCallback(dlerror='./simv: undefined symbol: msvSetAddProbeCallback')
+ANF: msvGetInstHandle(dlerror='./simv: undefined symbol: msvGetInstHandle')
+ANF: msvGetProbeByInst(dlerror='./simv: undefined symbol: msvGetProbeByInst')
+ANF: msvGetSigHandle(dlerror='./simv: undefined symbol: msvGetSigHandle')
+ANF: msvGetProbeBySig(dlerror='./simv: undefined symbol: msvGetProbeBySig')
+ANF: msvGetProbeInfo(dlerror='./simv: undefined symbol: msvGetProbeInfo')
+ANF: msvRelease(dlerror='./simv: undefined symbol: msvRelease')
+ANF: msvSetVcCallbackFunc(dlerror='./simv: undefined symbol: msvSetVcCallbackFunc')
+ANF: msvCheckVcCallback(dlerror='./simv: undefined symbol: msvCheckVcCallback')
+ANF: msvAddVcCallback(dlerror='./simv: undefined symbol: msvAddVcCallback')
+ANF: msvRemoveVcCallback(dlerror='./simv: undefined symbol: msvRemoveVcCallback')
+ANF: msvGetLatestValue(dlerror='./simv: undefined symbol: msvGetLatestValue')
+ANF: msvSetEndofSimCallback(dlerror='./simv: undefined symbol: msvSetEndofSimCallback')
+ANF: PI_ace_get_output_time_unit(dlerror='./simv: undefined symbol: PI_ace_get_output_time_unit')
+ANF: PI_ace_sim_sync(dlerror='./simv: undefined symbol: PI_ace_sim_sync')
+Chronologic Simulation VCS Release L-2016.06_Full64
+Linux 4.4.0-134-generic #160-Ubuntu SMP Wed Aug 15 14:58:00 UTC 2018 x86_64
+CPU cores: 4
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8192 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1048576
+memorylocked	64 kbytes
+maxproc			23610
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+XDG_VTNR=7
+LC_PAPER=zh_CN.UTF-8
+LC_ADDRESS=zh_CN.UTF-8
+XDG_SESSION_ID=c2
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/czh
+LC_MONETARY=zh_CN.UTF-8
+CLUTTER_IM_MODULE=xim
+NOVAS_HOME=/EDA/verdi201509
+GPG_AGENT_INFO=/home/czh/.gnupg/S.gpg-agent:0:1
+TERM=xterm-256color
+VTE_VERSION=4205
+SHELL=/bin/bash
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+WINDOWID=27262986
+LC_NUMERIC=zh_CN.UTF-8
+OLDPWD=/home/czh/systemverilog/sv_example/examples/0-gen2drv/event
+UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1252
+GNOME_KEYRING_CONTROL=
+GTK_MODULES=gail:atk-bridge:unity-gtk-module
+USER=czh
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LC_TELEPHONE=zh_CN.UTF-8
+QT_ACCESSIBILITY=1
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg
+DESKTOP_SESSION=ubuntu
+PATH=/EDA/vcs201606/linux64/bin:/EDA/vcs201606/bin:/EDA/INCISIV131S013/tools/bin:/EDA/verdi201509/bin:/EDA/vcs201606/tools/linux64/bin:/EDA/vcs201606/bin:/EDA/INCISIV131S013/tools/bin:/EDA/verdi201509/bin:/EDA/INCISIV131S013/tools/bin:/EDA/verdi201509/bin:/EDA/INCISIV131S013/tools/bin:/EDA/verdi201509/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+QT_IM_MODULE=fcitx
+QT_QPA_PLATFORMTHEME=appmenu-qt5
+LC_IDENTIFICATION=zh_CN.UTF-8
+XDG_SESSION_TYPE=x11
+PWD=/home/czh/systemverilog/sv_example/examples/0-gen2drv/event/tmp_db
+JOB=gnome-session
+VCS_HOME=/EDA/vcs201606
+XMODIFIERS=@im=fcitx
+GNOME_KEYRING_PID=
+LANG=en_US.UTF-8
+GDM_LANG=en_US
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+LC_MEASUREMENT=zh_CN.UTF-8
+COMPIZ_CONFIG_PROFILE=ubuntu
+IM_CONFIG_PHASE=1
+PAPERSIZE=a4
+LM_LICENSE_FILE=:5281@192.168.8.103:/EDA/synopsys.data:/EDA/cds111.lic:27000@192.168.8.103:/EDA/Synopsys.dat:/EDA/cds111.lic:27000@192.168.8.103:/EDA/Synopsys.dat:/EDA/cds111.lic:27000@192.168.8.103:/EDA/Synopsys.dat:/EDA/cds111.lic
+GDMSESSION=ubuntu
+SESSIONTYPE=gnome-session
+GTK2_MODULES=overlay-scrollbar
+SHLVL=1
+HOME=/home/czh
+XDG_SEAT=seat0
+VLOG_AIDE_HOME=/home/czh/vim_czh/vlog_aide
+LANGUAGE=en_US
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+UPSTART_INSTANCE=
+UPSTART_EVENTS=started starting
+XDG_SESSION_DESKTOP=ubuntu
+LOGNAME=czh
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-3Q1sol1t9f
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop
+QT4_IM_MODULE=fcitx
+LESSOPEN=| /usr/bin/lesspipe %s
+IES_HOME=/EDA/INCISIV131S013
+INSTANCE=Unity
+UPSTART_JOB=unity-settings-daemon
+VLOG_LIBRARY_PATH=/home/czh/vim_czh/vlog_aide/lib
+XDG_RUNTIME_DIR=/run/user/1000
+DISPLAY=:0
+XDG_CURRENT_DESKTOP=Unity
+GTK_IM_MODULE=fcitx
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+XAUTHORITY=/home/czh/.Xauthority
+_=./simv
+VCS_PATHMAP_PRELOAD_DONE=1
+LC_ALL=C
+DVE=/EDA/vcs201606/gui/dve
+SPECMAN_OUTPUT_TO_TTY=1
+Runtime command line arguments:
+argv[0]=./simv
+124 profile - 100
+          CPU/Mem usage: 0.050 sys,  0.460 user,  223.08M sys,  0.00M vm
+125 VC callback profile - scalar:0 vector:0
+126 Wed Aug 29 16:53:12 2018
+127 pliAppInit
+128 *Verdi3* : FSDB_GATE is set.
+129 *Verdi3* : Enable Parallel Dumping.
+130 pliAppMiscSet: New Sim Round
+131 pliEntryInit
+132 LIBSSCORE=found /EDA/verdi201509/share/PLI/lib/LINUXAMD64/libsscore_vcs201509.so through $NOVAS_HOME setting.
+133 FSDB Dumper for VCS, Release Verdi3_K-2015.09, Linux x86_64/64bit, 08/25/2015
+134 (C) 1996 - 2015 by Synopsys, Inc.
+135 ***********************************************************************
+136 *  WARNING -                                                          *
+137 *  The simulator version is newer than the FSDB dumper version which  *
+138 *  may cause abnormal behavior, please contact Synopsys support for   *
+139 *  assistance.                                                        *
+140 ***********************************************************************
+141 sps_call_fsdbDumpvars at 0 : /home/czh/systemverilog/sv_example/examples/0-gen2drv/event/top_tb.sv(29)
+142 *Verdi3* : Create FSDB file 'novas.fsdb'
+143 *Verdi3* : Begin traversing the scopes, layer (0).
+144 *Verdi3* : End of traversing.
+145 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.060 sys,  0.470 user,  375.35M sys,  0.00M vm
+                   incr: 0.010 sys,  0.010 user,  10.41M sys,  0.00M vm
+                   accu: 0.010 sys,  0.010 user,  10.41M sys,  0.00M vm
+              accu incr: 0.010 sys,  0.010 user,  10.41M sys,  0.00M vm
+
+          Count usage: 34 var,  17 idcode,  11 callback
+                 incr: 34 var,  17 idcode,  11 callback
+                 accu: 34 var,  17 idcode,  11 callback
+            accu incr: 34 var,  17 idcode,  11 callback
+146 VC callback profile - scalar:0 vector:0
+147 Wed Aug 29 16:53:13 2018
+148 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.060 sys,  0.470 user,  376.54M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.19M sys,  0.00M vm
+                   accu: 0.010 sys,  0.010 user,  11.60M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.19M sys,  0.00M vm
+
+          Count usage: 34 var,  17 idcode,  11 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 34 var,  17 idcode,  11 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+149 VC callback profile - scalar:10 vector:7
+150 Wed Aug 29 16:53:13 2018
+151 End of simulation at 245
+152 VC callback profile - scalar:94 vector:47
+153 Wed Aug 29 16:53:13 2018
+154 Parallel profile    -  Flush:2 ProduceWait:0 ConsumerWait:0 BlockUsed:0
+155                        ProduceTime:0.552119936 ConsumerTime:0.000000000
+156 SimExit
+157 Sim process exit

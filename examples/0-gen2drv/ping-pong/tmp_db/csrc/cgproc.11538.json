@@ -1,0 +1,119 @@
+{
+    "Modules": {
+        "test": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "dut": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "...MASTER...": {},
+        "_vcs_unit__1133725192": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "dut_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "top_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "reusePaths": {},
+    "CompUnits": {
+        "reYIK_d": {
+            "mod": "std",
+            "bytes": 41838,
+            "out": "reYIK_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_11538_archive_1.a"
+        },
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "bytes": 7922,
+            "out": "objs/amcQw_d.o",
+            "mode": 4,
+            "checksum": 0
+        },
+        "nZUk0_d": {
+            "mod": "_vcs_unit__1133725192",
+            "bytes": 65796,
+            "out": "nZUk0_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_11538_archive_1.a"
+        },
+        "e7EBi_d": {
+            "mod": "dut_if",
+            "bytes": 14447,
+            "out": "e7EBi_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_11538_archive_1.a"
+        },
+        "qKwL8_d": {
+            "mod": "dut",
+            "bytes": 16781,
+            "out": "qKwL8_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_11538_archive_1.a"
+        },
+        "W0eJz_d": {
+            "mod": "top_tb",
+            "bytes": 11242,
+            "out": "W0eJz_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_11538_archive_1.a"
+        },
+        "x9Hvb_d": {
+            "mod": "test",
+            "bytes": 43149,
+            "out": "x9Hvb_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_11538_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_11538_archive_1.a",
+            "objects": [
+                [
+                    "nZUk0_d.o",
+                    65796
+                ],
+                [
+                    "reYIK_d.o",
+                    41838
+                ],
+                [
+                    "e7EBi_d.o",
+                    14447
+                ],
+                [
+                    "qKwL8_d.o",
+                    16781
+                ],
+                [
+                    "x9Hvb_d.o",
+                    43149
+                ],
+                [
+                    "W0eJz_d.o",
+                    11242
+                ]
+            ],
+            "size": 193253
+        }
+    ]
+}
